@@ -113,8 +113,8 @@ float   temperature, pressure, altitude; // Stores the MPU9250 internal chip tem
 
 uint32_t delt_t = 0, count = 0, sumCount = 0;  // used to control display output rate
 
-const char* ssid     = "NETGEAR16";
-const char* password = "braveroad553";
+const char* ssid     = "yourSSID";
+const char* password = "yourpassword";
  
 ESP8266WebServer server(80);
  
